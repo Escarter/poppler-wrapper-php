@@ -1,9 +1,9 @@
 {
     "name": "escarter/poppler-wrapper-php",
-    "description": "This is a wrapper for Poppler Utility tools",
+    "description": "This is a php wrapper for Poppler Utility tools",
     "keywords": [
         "escarter",
-        "poppler_php"
+        "poppler-wrapper-php"
     ],
     "homepage": "https://github.com/escarter/poppler-wrapper-php",
     "license": "MIT",
