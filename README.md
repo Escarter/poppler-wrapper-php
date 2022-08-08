@@ -7,8 +7,8 @@ This package provides a class to extract text from a pdf.
 use Escarter\PopplerPhp\PdfToText;
 use Escarter\PopplerPhp\getOutput;
 
-echo PdfToText::getText('document.pdf'); //returns the text from the pdf
-echo PdfToText::getOutput('document.pdf','destination_path/page_%d.pdf'); //returns null
+echo PdfToText::getText('document.pdf','/opt/homebrew/bin/pdftotext'); //returns the text from the pdf
+echo PdfSeparate::getOutput('document.pdf','/opt/homebrew/bin/pdfseparate','destination_path/page_%d.pdf'); //returns null
 ```
 
 
@@ -48,7 +48,7 @@ yum install poppler-utils
 You can install the package via composer:
 
 ```bash
-composer require escarter/proppler-php
+composer require escarter/poppler-wrapper-php
 ```
 
 ## Usage Extracting text
