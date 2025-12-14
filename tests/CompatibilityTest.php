@@ -26,7 +26,7 @@ class CompatibilityTest extends TestCase
 
         // Test PHP 8.1+ features work
         $array = ['a' => 1, 'b' => 2];
-        $result = array_map(fn($value) => $value * 2, $array);
+        $result = array_map(fn ($value) => $value * 2, $array);
         $this->assertEquals(['a' => 2, 'b' => 4], $result);
     }
 

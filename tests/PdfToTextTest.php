@@ -2,8 +2,8 @@
 
 namespace Escarter\PopplerPhp\Tests;
 
-use Escarter\PopplerPhp\PdfToText;
 use Escarter\PopplerPhp\Exceptions\PdfNotFound;
+use Escarter\PopplerPhp\PdfToText;
 use PHPUnit\Framework\TestCase;
 
 class PdfToTextTest extends TestCase

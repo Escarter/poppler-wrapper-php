@@ -2,8 +2,8 @@
 
 namespace Escarter\PopplerPhp\Tests;
 
-use Escarter\PopplerPhp\PdfSeparate;
 use Escarter\PopplerPhp\Exceptions\PdfNotFound;
+use Escarter\PopplerPhp\PdfSeparate;
 use PHPUnit\Framework\TestCase;
 
 class PdfSeparateTest extends TestCase
